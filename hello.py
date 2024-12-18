@@ -1,4 +1,4 @@
-def main():
+brdef main():
     print("Hello from python-project-49!")
 
 

@@ -1,29 +1,10 @@
-# игра - проверка на четность
-# правильно ответить 3 раза
-
-import random
+from brain_games.engine import play
+from brain_games.games import even
 
 
-counter = 0
-while counter < 3:
-    a = random.randint(0, 99)
-    print(f'Question: {a}')
-    b = input()
-    if a % 2 == 0 and b == "yes":
-        counter += 1
-        if counter == 3:
-            print('Congratulations')
-            break
-        print('Correct!')
-    elif a % 2 != 0 and b == "no":
-        counter += 1
-        if counter == 3:
-            print('Congratulations')
-            break
-        print('Correct!')
-    else:
-        print("Let's try again")
+def main():
+    play(even)
 
 
-
-
+if __name__ == '__main__':
+    main()

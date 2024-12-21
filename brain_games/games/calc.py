@@ -1,4 +1,5 @@
-from random import randint, choice
+from random import randint
+from random import choice
 RULES = 'What is the result of the expression?'
 
 

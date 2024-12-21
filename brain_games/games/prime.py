@@ -11,7 +11,9 @@ def num_prime(num):
     for item in num_divisors:
         if num % item == 0:
             return False
+
     return True
+
 
 def generate_game():
     question = randint(0, 100)

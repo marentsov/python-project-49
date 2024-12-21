@@ -2,6 +2,7 @@ from random import randint
 import math
 RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
+
 def num_prime(num):
     if num <= 1:
         return False

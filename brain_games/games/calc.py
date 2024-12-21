@@ -1,6 +1,7 @@
 from random import randint, choice
 RULES = 'What is the result of the expression?'
 
+
 def generate_game():
 
     random_num_1 = randint(0, 20)

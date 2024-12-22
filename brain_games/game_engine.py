@@ -17,7 +17,9 @@ def play(game):
         if result == answer:
             print('Correct!')
         else:
-            print(f'\"{answer}" is wrong answer ;(. Correct answer was "{result}".')
+            print(
+                f'\"{answer}" is wrong answer ;(.'
+                f' Correct answer was "{result}".')
             print(f"Let's try again, {name}!")
             break
 

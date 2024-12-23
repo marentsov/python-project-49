@@ -1,7 +1,6 @@
 import math
 from random import randint
-
-RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+from brain_games.game_engine import play
 
 
 def num_prime(num):
@@ -27,4 +26,10 @@ def generate_game():
     return question, result
 
 
+def main():
+    RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+    play(generate_game, RULES)
+
+if __name__ == '__main__':
+    main()
 

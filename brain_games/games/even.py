@@ -1,6 +1,6 @@
 from random import randint
+from brain_games.game_engine import play
 
-RULES = ('Answer "yes" if the number is even, otherwise answer "no".')
 
 
 def generate_game():
@@ -15,4 +15,12 @@ def generate_game():
     return question, result
 
 
+def main():
+    RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
+    play(generate_game, RULES)
+
+
+
+if __name__ == '__main__':
+    main()
 

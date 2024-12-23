@@ -1,6 +1,7 @@
 from random import choice, randint
+from brain_games.game_engine import play
 
-RULES = 'What is the result of the expression?'
+
 
 
 def generate_game():
@@ -21,7 +22,13 @@ def generate_game():
     return question, str(result)
 
 
+def main():
+    RULES = 'What is the result of the expression?'
+    play(generate_game, RULES)
 
+
+if __name__ == '__main__':
+    main()
 
 
 

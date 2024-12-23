@@ -1,6 +1,6 @@
 from random import randint
 
-from brain_games.game_engine import play
+from brain_games.scripts.game_engine import play
 
 
 def generate_game():

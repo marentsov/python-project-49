@@ -24,5 +24,6 @@ def main():
     RULES = 'What number is missing in the progression?'
     play(generate_game, RULES)
 
+
 if __name__ == '__main__':
     main()

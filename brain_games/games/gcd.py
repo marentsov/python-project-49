@@ -21,6 +21,5 @@ def main():
     play(generate_game, RULES)
 
 
-
 if __name__ == '__main__':
     main()

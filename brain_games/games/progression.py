@@ -1,4 +1,5 @@
 from random import randint
+
 from brain_games.game_engine import play
 
 RULES = 'What number is missing in the progression?'
